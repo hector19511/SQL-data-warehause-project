@@ -1,3 +1,6 @@
+/*=====================================================
+Loading the csv file data into te databases
+======================================================*/
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS -- PROCEDURE WILL ACT LIKE A FUNCTION IN PYTHION. It will execute everything when executing bronze.load_bronze
 BEGIN
     DECLARE @start_time DATETIME, @end_time DATETIME, @bronze_start DATETIME, @bronze_end DATETIME
